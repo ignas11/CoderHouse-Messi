@@ -9,30 +9,49 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Fan Page MESSI</title>
   </head>
   <body>
-    <header class="header">
-        <h1>Todo sobre Lionel Messi</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="../index.html">inicio</a>
-            </li>
-            <li>
-              <a href="./contactanos.html">contactanos</a>
-            </li>
-            <li>
-              <a href="./equipos.html">equipos</a>
-            </li>
-            <li>
-              <a href="./servisios.html">servicios</a>
-            </li>
-            <li>
-              <a href="./foto.html">fotos</a>
-            </li>
-          </ul>
-        </nav>
+    <body>
+      <header>
+          <nav class="navbarsito header navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">inicio</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="../pages/datos.html"
+                      >Informacion Personal</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/foto.html">Fotos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/equipos.html">Equipos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/servisios.html">sponsors</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
       </header>
       <main class="grid-container">  
         <div class="grid-items primergrid"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lionel_Messi_PSG_%28cropped%29.jpg/220px-Lionel_Messi_PSG_%28cropped%29.jpg"></div>
@@ -44,31 +63,25 @@
         <div class="grid-items septimogrid"><img src="https://www.calibre800.com/wp-content/uploads/2022/12/319943491_460717792908095_784191407051751239_n-300x300.jpg"></div>
         <div class="grid-items octavogrid"><img src="https://micubitas.files.wordpress.com/2011/08/messi-lionel.jpg" ></div>
       </main>
-    <footer class="footer" id="fin">
+      <footer class="footer mt-2" id="fin">
+        <a href="https://messi.com/" target="_blank"
+          ><img src="../img/messi.png" class="messiLogo"
+        /></a>
         <section class="redes">
-          <div>
-            <a href="https://www.instagram.com/leomessi/" target="_blank"
-              ><img src="../img/instagram.png" class="insta"
-            /></a>
-          </div>
-          <div>
-            <a href="https://twitter.com/" target="_blank"
-              ><img src="../img/X.jpeg" class="x"
-            /></a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/leomessi" target="_blank"
-              ><img src="../img/facebook.png" class="facebook"
-            /></a>
-          </div>
-          <div>
-            <a href="https://messi.com/" target="_blank"
-              ><img src="../img/messi.png" class="messilogo"
-            /></a>
-          </div>
-          <p>Copyright © 2023 jony</p>
+          <a href="https://www.instagram.com/leomessi/" target="_blank"
+            ><i class="fa-brands fa-instagram socialLogo"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa-brands fa-x-twitter socialLogo"></i
+          ></a>
+          <a href="https://www.facebook.com/leomessi" target="_blank"
+            ><i class="fa-brands fa-facebook socialLogo"></i
+          ></a>
         </section>
-        <div></div>
-      </footer>      
-      </body>
+      </footer>
+    </body>
+    <script
+      src="https://kit.fontawesome.com/0e9bfd118d.js"
+      crossorigin="anonymous"
+    ></script>
 </html>
