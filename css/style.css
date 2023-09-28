@@ -67,11 +67,6 @@ footer {
   justify-content: space-between;
   gap: 50px ;
 }
-header h1 {
-  font-size: 50px;
-  font-weight: 400;
-  color: rgb(243, 243, 60);
-}
 header h2 {
   text-align: justify;
 }
@@ -209,7 +204,10 @@ header nav li a:hover {
 .navbarsito {
   background-color: rgb(9, 179, 209);
 }
-.lio{
+.text-center{
   padding: 10px;
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(255, 0, 0)
 }
 
