@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: "Roboto", sans-serif;
 }
+/* BODY */
 .contenedor {
   display: flex;
   justify-content: center;
@@ -37,6 +38,17 @@
   display: flex;
   justify-content: space-around;
 }
+.izquierda {
+  flex-direction: row-reverse;
+}
+.hero {
+  margin: 0px 25%;
+}
+.juego {
+  text-align: center;
+  color: chocolate;
+}
+/* FOOTER */
 .redes {
   display: flex;
   gap: 20px;
@@ -59,6 +71,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+/* HEADER */
 .header {
   background-color: rgb(9, 179, 209);
   position: sticky;
@@ -73,19 +86,11 @@ header h2 {
 .bodydatos {
   overflow-x: hidden;
 }
-.hero {
-  margin: 0px 25%;
-}
+
 header {
   margin-bottom: 5px;
 }
-.izquierda {
-  flex-direction: row-reverse;
-}
-.juego {
-  text-align: center;
-  color: chocolate;
-}
+/* GALERIA DE FOTOS */
 .grid-container {
   border: solid 2px;
   margin: 5px;
@@ -121,6 +126,7 @@ header {
 header nav li a:hover {
   color: orange;
 }
+ /* RESPONSIVE DE LA GALERIA  */
 @media screen and (max-width: 800px) {
   .grid-container {
     border: solid 2px;
@@ -138,6 +144,7 @@ header nav li a:hover {
     grid-row: span 1;
   }
 }
+/* RESPONSIVE DE LA PAGINA PRINCIPAL */
 @media screen and (max-width: 750px) {
   .header {
     flex-direction: column;
@@ -210,4 +217,47 @@ header nav li a:hover {
   font-weight: 400;
   color: rgb(255, 0, 0)
 }
-
+/* TABLA */
+table{
+  margin: 20px;
+}
+th{
+  padding: 15px;
+}
+td{
+  padding:15px ;
+}
+/* CLUBES */
+.imgclubles{
+  width: 325px;
+  height: 325px;
+  padding: 10px;
+}
+.h3equipos{
+  margin: 10px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+/* VIDA PERSONAL */
+.imgvida{
+  max-width: 80%;
+  width: 450px;
+  padding: 10px;
+}
+.trofeos{
+  max-width: 80%;
+  width: 450px;
+  padding: 10px;
+}
+.dieguito{
+  max-width: 80%;
+  width: 450px;
+  padding: 10px;
+}
+.datitos{
+  margin: 10px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
