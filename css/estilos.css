@@ -15,60 +15,40 @@ header {
   justify-content: space-between;
   gap: 50px; }
 
-.hero {
+main {
   margin: 0px 25%; }
-  .hero section .contenedor {
+  main .contenedor {
     display: flex;
     justify-content: center;
     align-items: center; }
-    .hero section .contenedor .imgen1 {
+    main .contenedor img {
       width: 325px;
       height: 325px;
       padding: 10px; }
-  .hero .descripcion {
+  main .descripcion {
     margin-left: 10px;
     align-self: center;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px; }
-    .hero .descripcion h2 {
+    main .descripcion h2 {
       text-align: center;
       color: chocolate; }
-    .hero .descripcion .izquierda {
+    main .descripcion .izquierda {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 15px;
       flex-direction: row-reverse; }
-  .hero img {
-    width: 200px;
-    height: 200px; }
-  .hero .barca {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px; }
-    .hero .barca img {
-      width: 200px;
-      height: 200px; }
-  .hero .izquierda {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-direction: row-reverse; }
-    .hero .izquierda img {
-      width: 200px;
-      height: 200px; }
-  .hero .barca {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px; }
-    .hero .barca img {
-      width: 200px;
-      height: 200px; }
+    main .descripcion .barca {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      main .descripcion .barca img {
+        width: 200px;
+        height: 200px; }
 
 footer {
   background-color: #09b3d1;
