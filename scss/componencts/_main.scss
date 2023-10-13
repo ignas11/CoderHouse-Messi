@@ -1,0 +1,120 @@
+.hero{
+        margin: 0px 25%;
+    section{
+        h1{
+            span{
+
+            }
+        }
+        .contenedor{  display: flex;
+            justify-content: center;
+            align-items: center;
+            .imgen1{
+                width: 325px;
+                height: 325px;
+                padding: 10px;
+              }
+            }
+            p{
+                span{
+
+                }
+            }
+        }
+        .descripcion{
+             margin-left: 10px;
+             align-self: center;
+             margin-top: 50px;
+             display: flex;
+             flex-direction: column;
+             gap: 50px;
+            h2{
+                text-align: center;
+                color: chocolate;
+            }
+            .izquierda{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex-direction: row-reverse;
+                div{
+                    h3{
+                        span{
+
+                        }
+                    }
+                    p{
+                        span{
+
+                        }
+                    }
+                }
+            }   
+        }
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            .barca{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                div{
+                    h3{
+                        span{}
+                    }
+                    p{
+                        span{
+
+                        }
+                    }
+                }
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+            .izquierda{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex-direction: row-reverse;
+                div{
+                    h3{
+                        span{}
+                    }
+                    p{
+                        span{
+
+                        }
+                    }
+                }
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+            .barca{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                div{
+                    h3{
+                        span{}
+                    }
+                    p{
+                        span{
+
+                        }
+                    }
+                }
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+    }

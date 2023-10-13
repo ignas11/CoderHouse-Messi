@@ -1,0 +1,157 @@
+header {
+  background-color: #09b3d1; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif; }
+
+header {
+  margin-bottom: 5px;
+  background-color: #09b3d1;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px; }
+
+.hero {
+  margin: 0px 25%; }
+  .hero section .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hero section .contenedor .imgen1 {
+      width: 325px;
+      height: 325px;
+      padding: 10px; }
+  .hero .descripcion {
+    margin-left: 10px;
+    align-self: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px; }
+    .hero .descripcion h2 {
+      text-align: center;
+      color: chocolate; }
+    .hero .descripcion .izquierda {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-direction: row-reverse; }
+  .hero img {
+    width: 200px;
+    height: 200px; }
+  .hero .barca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; }
+    .hero .barca img {
+      width: 200px;
+      height: 200px; }
+  .hero .izquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row-reverse; }
+    .hero .izquierda img {
+      width: 200px;
+      height: 200px; }
+  .hero .barca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; }
+    .hero .barca img {
+      width: 200px;
+      height: 200px; }
+
+footer {
+  background-color: #09b3d1;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  footer a img {
+    width: 100px;
+    height: 100px; }
+
+section {
+  display: flex;
+  gap: 20px; }
+  section a i {
+    font-size: 50px;
+    color: black; }
+  section a i {
+    font-size: 50px;
+    color: black; }
+  section a i {
+    font-size: 50px;
+    color: black; }
+
+/* RESPONSIVE DE LA GALERIA  */
+@media screen and (max-width: 800px) {
+  .grid-container {
+    border: solid 2px;
+    margin: 5px;
+    margin-top: 5px;
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5px;
+    column-gap: 10px;
+    overflow: hidden; }
+  .grid-items {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+/* RESPONSIVE DE LA PAGINA PRINCIPAL */
+@media screen and (max-width: 750px) {
+  .header {
+    flex-direction: column; }
+  header h1 {
+    font-size: 40px;
+    font-size: 25px; }
+  .hero h2 {
+    color: purple;
+    font-size: 25px; }
+  .hero h3 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column; }
+  .contenedor {
+    display: flex;
+    flex-direction: column; }
+  .parrafos {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column; }
+  .barca {
+    flex-direction: column;
+    text-align: center; } }
+
+@media screen and (max-width: 500px) {
+  .header {
+    position: static; }
+  header nav ul {
+    flex-direction: column;
+    gap: 0px; } }
+
+@media screen and (max-width: 400px) {
+  .grid-container {
+    border: solid 2px;
+    margin: 5px;
+    margin-top: 5px;
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
+    column-gap: 10px;
+    overflow: hidden; } }

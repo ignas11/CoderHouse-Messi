@@ -72,23 +72,14 @@ footer {
   justify-content: space-between;
 }
 /* HEADER */
-.header {
+header {
+  margin-bottom: 5px;
   background-color: rgb(9, 179, 209);
   position: sticky;
   top: 0px;
   display: flex;
   justify-content: space-between;
   gap: 50px ;
-}
-header h2 {
-  text-align: justify;
-}
-.bodydatos {
-  overflow-x: hidden;
-}
-
-header {
-  margin-bottom: 5px;
 }
 /* GALERIA DE FOTOS */
 .grid-container {
@@ -101,6 +92,7 @@ header {
   row-gap: 5px;
   column-gap: 10px;
   overflow: hidden;
+  background-color: rgb(0, 0, 0);
 }
 
 .grid-items {
@@ -122,9 +114,6 @@ header {
 .grid-items img {
   height: 100%;
   width: 100%;
-}
-header nav li a:hover {
-  color: orange;
 }
  /* RESPONSIVE DE LA GALERIA  */
 @media screen and (max-width: 800px) {
@@ -151,6 +140,7 @@ header nav li a:hover {
   }
   header h1 {
     font-size: 40px;
+    font-size: 25px;
   }
   .hero h2 {
     color: purple;
@@ -169,9 +159,6 @@ header nav li a:hover {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-  }
-  header h1 {
-    font-size: 25px;
   }
   .barca {
     flex-direction: column;
@@ -217,20 +204,11 @@ header nav li a:hover {
   font-weight: 400;
   color: rgb(255, 0, 0)
 }
-/* TABLA */
-table{
-  margin: 20px;
-}
-th{
-  padding: 15px;
-}
-td{
-  padding:15px ;
-}
+
 /* CLUBES */
 .imgclubles{
-  width: 325px;
-  height: 325px;
+  width: 80%;
+  height: 80%;
   padding: 10px;
 }
 .h3equipos{
@@ -261,3 +239,44 @@ td{
   text-align: justify;
   align-items: center;
 }
+/* TABLA */
+
+/* table{
+  margin: 15px;
+}
+th{
+  padding: 12px;
+}
+td{
+  padding:12px ;
+}
+table {
+  width: 20%;
+  border-collapse: collapse;  
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+@media (max-width: 350px) {
+  table {
+    width: 200px;
+  }
+}
+table th, table td {
+  padding: 5px;
+  font-size: 14px;
+}
+.contenedor-tabla{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.imgtabla{
+  width: 60%;
+} */
+
+
+
+
