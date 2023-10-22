@@ -4,52 +4,62 @@
   font-family: "Roboto", sans-serif;
 }
 /* BODY */
-.contenedor {
+/* .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.messibarcelona {
+} */
+/* .messibarcelona {
   width: 200px;
   height: 200px;
-}
-.barca {
+} */
+/* .barca {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-}
-.imagen1 {
+} */
+/* .imagen1 {
   width: 325px;
   height: 325px;
   padding: 10px;
-}
-.descripcion {
+} */
+/* .descripcion {
   margin-left: 10px;
   align-self: center;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
+} */
 .flex-container {
   width: 100%;
   border: none;
   display: flex;
   justify-content: space-around;
 }
-.izquierda {
+/* .izquierda {
   flex-direction: row-reverse;
-}
-.hero {
+} */
+/* .hero {
   margin: 0px 25%;
-}
-.juego {
+} */
+/* .juego {
   text-align: center;
   color: chocolate;
-}
+} */
 /* FOOTER */
-.redes {
+/* footer {
+  background-color: rgb(9, 179, 209);
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+/* .redes {
   display: flex;
   gap: 20px;
 }
@@ -60,17 +70,8 @@
 .messiLogo {
   width: 100px;
   height: 100px;
-}
-footer {
-  background-color: rgb(9, 179, 209);
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+} */
+
 /* HEADER */
 header {
   margin-bottom: 5px;
@@ -134,50 +135,44 @@ header {
   }
 }
 /* RESPONSIVE DE LA PAGINA PRINCIPAL */
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .header {
     flex-direction: column;
-  }
-  header h1 {
-    font-size: 40px;
-    font-size: 25px;
-  }
-  .hero h2 {
+  } */
+
+  /* .hero h2 {
     color: purple;
     font-size: 25px;
-  }
+  } */
   .hero h3 {
     font-size: 18px;
     display: flex;
     flex-direction: column;
   }
-  .contenedor {
+  /* .contenedor {
     display: flex;
     flex-direction: column;
-  }
-  .parrafos {
+  } */
+  /* .parrafos {
     font-size: 16px;
     display: flex;
     flex-direction: column;
-  }
-  .barca {
+  } */
+  /* .barca {
     flex-direction: column;
     text-align: center;
-  }
-}
-@media screen and(max-width:600px) {
-}
+  } */
+/* } */
 @media screen and (max-width: 500px) {
-  .header {
+  /* .header {
     position: static;
-  }
+  } */
   header nav ul {
     flex-direction: column;
     gap: 0px;
   }
 }
-@media screen and (max-width: 450px) {
-}
+
 @media screen and (max-width: 400px) {
   .grid-container {
     border: solid 2px;
@@ -195,15 +190,10 @@ header {
   background-color: rgb(9, 179, 209);
   font-size: 20px;
 }
-.navbarsito {
+/* .navbarsito {
   background-color: rgb(9, 179, 209);
-}
-.text-center {
-  padding: 10px;
-  font-size: 50px;
-  font-weight: 400;
-  color: rgb(255, 0, 0);
-}
+} */
+
 
 /* CLUBES */
 .imgclubles {

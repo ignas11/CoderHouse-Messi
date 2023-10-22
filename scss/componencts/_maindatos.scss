@@ -1,0 +1,68 @@
+.herodatos {
+    margin: 0px 25%;
+    section{
+        div{
+            h3{
+                margin: 10px;
+                display: flex;
+                text-align: justify;
+                align-items: center;
+            }
+            img{
+                
+                max-width: 80%;
+                width: 450px;
+                padding: 10px;
+            
+            p{
+                margin: 10px;
+                display: flex;
+                text-align: justify;
+                align-items: center;
+            }
+        }
+        div{
+            h3{
+                margin: 10px;
+                display: flex;
+                text-align: justify;
+                align-items: center;
+                @media  (max-width: 750px){
+                    font-size: 18px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            img{
+                max-width: 80%;
+                width: 450px;
+                padding: 10px;
+            }
+        }
+        div{
+            h3{
+                margin: 10px;
+                display: flex;
+                text-align: justify;
+                align-items: center;
+                @media  (max-width: 750px){
+                    font-size: 18px;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            img{
+                max-width: 80%;
+                width: 450px;
+                padding: 10px;
+            }
+            p{
+                margin: 10px;
+                display: flex;
+                text-align: justify;
+                align-items: center;
+            }
+        }
+    }
+}
+}

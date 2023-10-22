@@ -6,36 +6,15 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 50px ;
+    @media (max-width: 750px){
+        header {
+            flex-direction: column;
+          }
+        
+    }
+    @media screen and (max-width: 500px){
+        .header {
+            position: static;
+    } 
+ }
 }
-    // nav{
-    //     div{
-    //         a{
-
-    //         }
-    //         button{
-    //             span{
-    //             }
-    //         } 
-    //         div{
-    //             ul{
-    //                 li{
-    //                     a{
-    //                     }
-    //                 }
-    //                 li{
-    //                     a{
-    //                     }
-    //                 }
-    //                 li{
-    //                     a{
-    //                     }
-    //                 }
-    //                 li{
-    //                     a{
-    //                     }
-    //                 }
-    //             }
-    //         }           
-    //     }
-
-    // }
