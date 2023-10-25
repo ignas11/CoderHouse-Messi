@@ -1,12 +1,9 @@
-@import "./bases/funciones";
-@import "./bases/generales";
-@import"./componencts/header";
-@import"./componencts/main";
-@import"./componencts/maindatos";
-@import"./componencts/mainequipos";
-@import"./componencts/mainpalmares";
-@import"./componencts/footer";
-@import "./bases/mediaquery";
-
-
-
+@import "componencts/footer";
+@import "componencts/header";
+@import "componencts/main";
+@import "componencts/maindatos";
+@import "componencts/mainequipos";
+@import "componencts/mainpalmares";
+@import "bases/funciones";
+@import "bases/generales";
+@import "bases/mediaquery";

@@ -6,15 +6,20 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 50px ;
-    @media (max-width: 750px){
-        header {
-            flex-direction: column;
-          }
-        
+    @media screen and (max-width: 991px){
     }
     @media screen and (max-width: 500px){
         .header {
             position: static;
     } 
  }
+ nav{
+    .itemsn{
+        @media screen and (max-width: 991px){
+            display: flex;
+            justify-content: center;
+
+    }
+    }
+}
 }

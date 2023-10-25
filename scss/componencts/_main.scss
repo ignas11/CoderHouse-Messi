@@ -1,16 +1,20 @@
 main {
-  margin: 0px 25%;
+  margin: 0px 20%;
 
   h1 {
     padding: 10px;
     font-size: 50px;
     font-weight: 400;
     color: rgba(214, 12, 12, 0.795);
-   }
+    font-style: italic;
+    font-weight: bold;
+  }
   .contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    font-weight: bold;
     @media  (max-width: 750px){
       display: flex;
       flex-direction: column;
@@ -24,14 +28,18 @@ main {
   .descripcion {
     margin-left: 10px;
     align-self: center;
-    margin-top: 50px;
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 45px;
+    font-style: italic;
+    font-weight: bold;
 
     .juego {
       text-align: center;
       color: chocolate;
+      font-style: italic;
+
       @media  (max-width: 750px){
       color: rgb(131, 15, 131);
       font-size: 25px;
@@ -47,14 +55,19 @@ main {
     }
       div{
         h3{
-          @media  (max-width: 750px){
+          font-style: italic;
 
+          @media  (max-width: 750px){
+          font-weight: bold;
           font-size: 18px;
           display: flex;
           flex-direction: column;
         }
         }
         .parrafos{
+          font-weight: bold;
+          font-style: italic;
+
           @media  (max-width: 750px){
             font-size: 16px;
             display: flex;
