@@ -199,11 +199,7 @@ main section div .datitos {
 }
 
 main {
-  margin: 0px 25%;
-}
-
-main {
-  margin: 0px 25%;
+  margin: 0px 20% ;
 }
 
 header {
@@ -284,22 +280,34 @@ header {
     row-gap: 5px;
     column-gap: 10px;
     overflow: hidden;
-  }
-  .grid-items {
+    .grid-items {
     grid-column: span 1;
     grid-row: span 1;
   }
+ 
+}
+
 
 }
 .titgrid{
   display: flex;
   justify-content: center;
-    background-color: black;
+  background-color: black;
 }
 .gridh1{
-  color: rgb(116, 36, 191);
+color: rgb(116, 36, 191);
 }
+@media screen and (max-width: 550px){
+  
+  
+
+
+
+
+}
+
+p{
+  font-style: italic;
+}
+
 /*# sourceMappingURL=estilos.css.map */
-h1{
-  color: red;
-}
